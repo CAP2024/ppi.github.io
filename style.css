@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+header{background-color: rgb(196, 240, 225);width: 100;
+display: flex;
+flex-direction: row;
+justify-content:space-between ;
+align-items:flex-end;}
+
+header ul {
+    list-style:none;
+    display: flex;
+    flex-direction:row;
+ 
+}
+
+header ul li {
+    margin: 10px;
+}
+
+img{width: 150px;}
+
+h1{font-size: 150;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: unset;
+color: rgb(0, 0, 0);}
+
+p{font-size: 120;
+color:black ;}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    justify-content:center
+}
+
+.caja { 
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+    padding: 15px;
+    width: 100% ;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(205, 198, 198, 0.431);
+}
+.caja p {
+font-size: 15px;
+margin: 10px 10px 10px 10px;
+color: black;
+}
+
+.caja h1 {
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+}
+.presentación {
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    color: black;
+    background-color: bisque;
+    font-family: "Protest Riot", sans-serif;
+    font-style: normal;
+      
+}
